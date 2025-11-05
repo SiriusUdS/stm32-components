@@ -1,0 +1,8 @@
+[submodule "stm32h747-hal"]
+	path = HAL/stm32h747-hal
+	url = https://github.com/SiriusUdS/stm32h747-hal.git
+	branch = add_cmake_and_drivers
+[submodule "stm32f412-hal"]
+	path = HAL/stm32f412-hal
+	url = https://github.com/SiriusUdS/stm32f412-hal.git
+	branch = ajout-cmake-et-drivers
