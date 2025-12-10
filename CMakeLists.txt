@@ -73,6 +73,7 @@ endif()
 add_library(stm32_components STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/Peripherals/Src/gpio.c
     ${CMAKE_CURRENT_SOURCE_DIR}/Devices/Src/led.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/Sensors/Src/barometer.c
 )
 
 # Inclure les répertoires
